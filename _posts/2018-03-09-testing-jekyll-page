@@ -1,0 +1,48 @@
+---
+title: "Testing Jekyll Page"
+permalink: "/posts/"
+absolute_url: "_posts"
+excerpt: "Testing a post in Jekyll."
+last_modified_at:
+---
+
+My name is Glenn Lanzer III (aka 'Trey') per the third. I am a
+28 year old from Oakland, California currently living in Denton, Texas.
+
+blah jflsjoif fjsljfs
+f jlfsjld fsdjlf
+fjdsll fjsdjsfdl fsdlfj
+fleoldf dlfsjfo fdsjfosjfiosfiosvsoi fsoidjfois
+jfsjfoisdjfio.
+
+Filenames for posts:
+
+```
+YYYY-MM-DD-title.md
+```
+
+**Recomended Front Matter Defaults:**
+
+```yaml
+defaults:
+  # _posts
+  - scope
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+```
+
+Adding the above to `_config.yml` will assign the `single`
+layout and enable: *author profile*, *reading time*, *comments*,
+[*social sharing links*]({{ "/docs/layouts/#social-sharing-links" | absolute_url }}), and
+*related posts*, for all posts.
+
+**ProTip:** Remember to write unique `excerpt` descriptions for each
+post for improved SEO and archive listings.
+{: .notice--info}
