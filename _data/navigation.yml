@@ -1,12 +1,14 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Home"
+    url: https://TexasBullet26.github.io
+  - title: "About"
+    url: https://TexasBullet26.github.io/about/
+  - title: "Blog"
+    url: https://TexasBullet26.github.io/blog/
+  - title: "Projects"
+    url: https://TexasBullet26.github.io/projects/
+  - title: "Contact"
+    url: https://TexasBullet26.github.io/contact/
+  - title: "Archives"
+    url: https://TexasBullet26.github.io/archives/
